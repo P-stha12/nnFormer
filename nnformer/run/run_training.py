@@ -21,6 +21,7 @@ from nnformer.run.load_pretrained_weights import load_pretrained_weights
 from nnformer.training.cascade_stuff.predict_next_stage import predict_next_stage
 from nnformer.training.network_training.nnFormerTrainer import nnFormerTrainer
 from nnformer.training.network_training.nnFormerTrainer_synapse import nnFormerTrainer_synapse
+from nnformer.training.network_training.nnFormerTrainer_mood import nnFormerTrainer_mood
 
 from nnformer.training.network_training.nnFormerTrainerCascadeFullRes import nnFormerTrainerCascadeFullRes
 from nnformer.training.network_training.nnFormerTrainerV2_CascadeFullRes import nnFormerTrainerV2CascadeFullRes
