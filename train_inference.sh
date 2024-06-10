@@ -17,7 +17,7 @@ echo $name
 
 	
 cd /content/nnFormer/nnformer
-CUDA_VISIBLE_DEVICES=${cuda} nnFormer_train ${name} ${task} 0
+CUDA_VISIBLE_DEVICES=${cuda} nnFormer_train 3d_fullres nnFormerTrainer_mood ${task} 0
 
 
 
