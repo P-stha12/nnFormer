@@ -1,0 +1,36 @@
+{
+    "description": "",
+    "labels": {
+        "0": "background",
+        "1": "anamoly"
+    },
+    "licence": "hands off!",
+    "modality": {
+        "0": "FLAIR"
+    },
+    "name": "Mood",
+    "numTest": 0,
+    "numTraining": 4,
+    "reference": "",
+    "release": "0.0",
+    "tensorImageSize": "4D",
+    "test": [],
+    "training": [
+        {
+            "image": "./imagesTr/toy_000.nii.gz",
+            "label": "./labelsTr/toy_000.nii.gz"
+        },
+        {
+            "image": "./imagesTr/toy_001.nii.gz",
+            "label": "./labelsTr/toy_001.nii.gz"
+        },
+        {
+            "image": "./imagesTr/toy_002.nii.gz",
+            "label": "./labelsTr/toy_002.nii.gz"
+        },
+        {
+            "image": "./imagesTr/toy_003.nii.gz",
+            "label": "./labelsTr/toy_003.nii.gz"
+        }
+    ]
+}	
